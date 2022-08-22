@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;    
+}
+body{
+    /* height: 100vh;
+    width: 100vw; 
+     overflow-y: hidden; */
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-item{
+    margin: 0px 20px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: 0px 10px;
+}
+.nav-item:hover{
+    transform: scale(1.5);
+    opacity: 1;
+    transition: transform 1s;
+    font-weight: bold;
+    color: orangered;
+}
+.intro-section{
+    display: flex;
+    justify-content: center;
+}
+.left-section{
+    flex-basis: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+.left-section h3{
+    font-size: 2rem;
+    margin: 10px 0px;
+}
+.left-section h1{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family:"Fredoka One";
+    margin: 10px 0px;
+}
+.sub-headlines{
+    margin: 10px 0px;
+    display:flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 200;
+    
+}
+.sub-headline{
+    margin: 10px 0px;
+    font-weight: 500;
+}
+.sub-headline  img{
+    background-color: orangered;
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.text{
+    opacity: 0.5;
+    line-height: 1.5rem;
+    margin:10px 0px;
+}
+.action-btns{
+    display: flex;
+}
+.action-btn{
+    padding: 10px 40px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.5rem;
+    background-color: orangered;
+    color: white;
+}
+.right-section{
+    flex-basis:50vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.headphone-div{
+position: relative;
+}
+.head_image{
+    position:relative;
+    object-fit: contain;
+    bottom:20px;
+    right:20px;
+    z-index: -10;
+    height:70vh;
+}
+.discount-content{
+    position: absolute;
+}
+.discount{
+    position: relative;
+    top:10rem;
+    left:-2rem;
+    z-index:-1;
+}
+.discount+h4{
+    color: white;
+    position: relative;
+    top:30px;
+}
+.persentage{
+    color: white;
+    position: relative;
+    top:25px;
+}
+
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+}
+.dot{
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.yellow-dot{
+    background-color: yellow;
+}
+.tomato-dot{
+    background-color: tomato;
+}
+.black-dot{
+    background-color: black;
+}
+.right_btn{
+    align-self: center;
+}  
+
+@media screen and (max-width: 700px) {
+.right-section{
+    display:none;
+}
+}
