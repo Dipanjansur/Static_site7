@@ -14,7 +14,7 @@ not at all responsive
 -   manage 
 
  ## live link
- [LIVE LINK]("netlify")
+ [LIVE LINK]("https://headphonesell.netlify.app/")
 
  # RESULT
  ## my Result
